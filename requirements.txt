@@ -1,0 +1,5 @@
+Django==5.0.2
+djangorestframework==3.14.0
+python_Levenshtein==0.25.0
+python_Levenshtein==0.25.0
+Requests==2.31.0

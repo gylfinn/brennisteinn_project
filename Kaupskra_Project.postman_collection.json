@@ -1,0 +1,743 @@
+{
+	"info": {
+		"_postman_id": "47c770e6-f546-4eb4-973d-c2df8270a98c",
+		"name": "Kaupskra_Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10480985"
+	},
+	"item": [
+		{
+			"name": "Get Data by Fastnum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/2254380",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"2254380"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data by Fastnum Not Authenticated",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/2254380",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"2254380"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByAddress",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/address/Akursíða 4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"address",
+						"Akursíða 4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePrice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averageprice",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averageprice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceByDates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceByTowns",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceByPostcodes #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebypostcode/220",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebypostcode",
+						"220"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceByPostcodes #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceByHousing #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceByHousing #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAverageSquareMeter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAverageSquareMeterByDates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAverageSquareMeterByTowns",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAverageSquareMeterByPostcodes #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAverageSquareMeterByPostcodes #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAverageSquareMeterByHousing #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAverageSquareMeterByHousing #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAmountOfDeals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAmountOfDealsByDate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAmountOfDealsByTown",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAmountOfDealsByPostcodes #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAmountOfDealsByPostcodes #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAmountOfDealsByHousing #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAmountOfDealsByHousing #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeterByDates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeterByTowns #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeterByTowns #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeterByPostCodes #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeterByPostCodes #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeterByHousing #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAveragePriceOfSquareMeterByHousing #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/averagepricebydates/2023-03-16/2023-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"averagepricebydates",
+						"2023-03-16",
+						"2023-12-25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Data",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gylfi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/updatedata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"updatedata"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "Schweinsteiger",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "gylfi1",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
